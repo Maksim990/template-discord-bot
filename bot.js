@@ -1,5 +1,5 @@
-﻿//require
-const systemLauncher = require("./.lib/systemLauncher/start.js");
+//require
+const systemLauncher = require("./lib/systemLauncher/start.js");
 const child_process = require("child_process");
 const Discord = require("discord.js");
 const fs = require("fs");
