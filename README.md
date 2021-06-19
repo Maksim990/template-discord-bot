@@ -1,7 +1,7 @@
-# Об Проекте
-Проект создан для того чтобы не мучаться и сразу взять готовый но и ещё удобный шаблон бота
-# Обновление шаблон бота `v5.0`
-* Добавлено оформление при запуске
+# About the project
+The project was created in order not to suffer and immediately take a ready-made, but already convenient bot template.
+# Bot template update `v5.0`
+* Added styling at startup
 <p><img src="https://media.discordapp.net/attachments/757169876451196969/855825949606281246/Screenshot_2021-06-19-18-05-20-62.png" width"250" height="250" alt="Screenshot" /></p>
-\n* Добавлено постоянное обновление файла botconfig.json
-\n* Можно ещё в botconfig.json где user написать свой никнейм дискорда, дабы показать что этот бот принадлежит вам, а не кому-то
+* Added saving botconfig.json file to savebotconfig.js file
+* You can also in botconfig.json where user write your discord nickname in order to show that this bot belongs to you, and not to someone
