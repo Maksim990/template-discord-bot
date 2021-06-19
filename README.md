@@ -7,4 +7,4 @@ The project was created in order not to suffer and immediately take a ready-made
 
 * Added saving botconfig.json file to savebotconfig.txt file
 
-* You can also in botconfig.json where user write your discord nickname in order to show that this bot belongs to you, and not to someone
+* You can also in botconfig.json where `user` write your discord nickname in order to show that this bot belongs to you, and not to someone
