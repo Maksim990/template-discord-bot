@@ -1,6 +1,6 @@
-{
+﻿{
   "name": "bot-template",
-  "version": "5.0.0",
+  "version": "0.0.0",
   "description": "Шаблон бота, для упращенного кода",
   "main": "bot.js",
   "scripts": {
