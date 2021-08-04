@@ -1,0 +1,1150 @@
+{
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/start.js": {
+    "../../botconfig.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/botconfig.json",
+    "readline": "readline",
+    "colors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/index.js",
+    "figlet": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/figlet/lib/node-figlet.js",
+    "fs": "fs",
+    "./settings.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/settings.json"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/index.js": {
+    "./colors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/colors.js",
+    "./extendStringPrototype": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/extendStringPrototype.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/colors.js": {
+    "util": "util",
+    "./styles": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/styles.js",
+    "./system/supports-colors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/system/supports-colors.js",
+    "./custom/trap": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/custom/trap.js",
+    "./custom/zalgo": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/custom/zalgo.js",
+    "./maps/america": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/maps/america.js",
+    "./maps/zebra": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/maps/zebra.js",
+    "./maps/rainbow": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/maps/rainbow.js",
+    "./maps/random": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/maps/random.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/system/supports-colors.js": {
+    "os": "os",
+    "./has-flag.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/system/has-flag.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/extendStringPrototype.js": {
+    "./colors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/colors/lib/colors.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/figlet/lib/node-figlet.js": {
+    "./figlet.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/systemLauncher/node_modules/figlet/lib/figlet.js",
+    "fs": "fs",
+    "path": "path"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/bot.js": {
+    "child_process": "child_process",
+    "discord.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/index.js",
+    "fs": "fs",
+    "./botconfig.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/botconfig.json",
+    "./cmds/test.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/cmds/test.js",
+    "./lib/functions.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/functions.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/index.js": {
+    "./util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js",
+    "./client/BaseClient": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/BaseClient.js",
+    "./client/Client": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/Client.js",
+    "./sharding/Shard": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/Shard.js",
+    "./sharding/ShardClientUtil": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/ShardClientUtil.js",
+    "./sharding/ShardingManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/ShardingManager.js",
+    "./client/WebhookClient": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/WebhookClient.js",
+    "./util/ActivityFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/ActivityFlags.js",
+    "./util/BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js",
+    "./util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "./util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "./util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "./managers/BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "./rest/DiscordAPIError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/DiscordAPIError.js",
+    "./rest/HTTPError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/HTTPError.js",
+    "./util/MessageFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/MessageFlags.js",
+    "./util/Intents": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Intents.js",
+    "./util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "./util/Speaking": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Speaking.js",
+    "./util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "./util/Structures": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Structures.js",
+    "./util/SystemChannelFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/SystemChannelFlags.js",
+    "./util/UserFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/UserFlags.js",
+    "../package.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/package.json",
+    "./managers/ChannelManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ChannelManager.js",
+    "./managers/GuildChannelManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildChannelManager.js",
+    "./managers/GuildEmojiManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiManager.js",
+    "./managers/GuildEmojiRoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiRoleManager.js",
+    "./managers/GuildMemberManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberManager.js",
+    "./managers/GuildMemberRoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberRoleManager.js",
+    "./managers/GuildManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildManager.js",
+    "./managers/ReactionManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionManager.js",
+    "./managers/ReactionUserManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionUserManager.js",
+    "./managers/MessageManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/MessageManager.js",
+    "./managers/PresenceManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/PresenceManager.js",
+    "./managers/RoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/RoleManager.js",
+    "./managers/UserManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/UserManager.js",
+    "./structures/interfaces/Application": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Application.js",
+    "./structures/Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./structures/Presence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Presence.js",
+    "./structures/APIMessage": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/APIMessage.js",
+    "./structures/BaseGuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/BaseGuildEmoji.js",
+    "./structures/CategoryChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/CategoryChannel.js",
+    "./structures/Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "./structures/ClientApplication": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientApplication.js",
+    "./structures/interfaces/Collector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Collector.js",
+    "./structures/DMChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/DMChannel.js",
+    "./structures/Emoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Emoji.js",
+    "./structures/Guild": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Guild.js",
+    "./structures/GuildAuditLogs": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildAuditLogs.js",
+    "./structures/GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js",
+    "./structures/GuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js",
+    "./structures/GuildMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js",
+    "./structures/GuildPreview": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreview.js",
+    "./structures/GuildTemplate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildTemplate.js",
+    "./structures/Integration": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Integration.js",
+    "./structures/Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "./structures/Message": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Message.js",
+    "./structures/MessageAttachment": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageAttachment.js",
+    "./structures/MessageCollector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageCollector.js",
+    "./structures/MessageEmbed": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageEmbed.js",
+    "./structures/MessageMentions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageMentions.js",
+    "./structures/MessageReaction": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageReaction.js",
+    "./structures/NewsChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/NewsChannel.js",
+    "./structures/PermissionOverwrites": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/PermissionOverwrites.js",
+    "./structures/ClientPresence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientPresence.js",
+    "./structures/ReactionCollector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionCollector.js",
+    "./structures/ReactionEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionEmoji.js",
+    "./structures/Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "./structures/StoreChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/StoreChannel.js",
+    "./structures/Team": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Team.js",
+    "./structures/TeamMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TeamMember.js",
+    "./structures/TextChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TextChannel.js",
+    "./structures/User": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/User.js",
+    "./structures/VoiceChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceChannel.js",
+    "./structures/VoiceRegion": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceRegion.js",
+    "./structures/VoiceState": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceState.js",
+    "./structures/Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js",
+    "./WebSocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/WebSocket.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js": {
+    "path": "path",
+    "node-fetch": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/node-fetch/lib/index.js",
+    "./Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/node-fetch/lib/index.js": {
+    "stream": "stream",
+    "http": "http",
+    "url": "url",
+    "https": "https",
+    "zlib": "zlib"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js": {
+    "../../package.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/package.json",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js": {
+    "./DJSError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/DJSError.js",
+    "./Messages": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/Messages.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/Messages.js": {
+    "./DJSError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/DJSError.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/BaseClient.js": {
+    "setimmediate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/setimmediate/setImmediate.js",
+    "events": "events",
+    "../rest/RESTManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/RESTManager.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/RESTManager.js": {
+    "./APIRequest": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/APIRequest.js",
+    "./APIRouter": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/APIRouter.js",
+    "./RequestHandler": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/RequestHandler.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/APIRequest.js": {
+    "https": "https",
+    "@discordjs/form-data": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/@discordjs/form-data/lib/form_data.js",
+    "abort-controller": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/abort-controller/dist/abort-controller.js",
+    "node-fetch": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/node-fetch/lib/index.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/@discordjs/form-data/lib/form_data.js": {
+    "combined-stream": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/combined-stream/lib/combined_stream.js",
+    "util": "util",
+    "path": "path",
+    "http": "http",
+    "https": "https",
+    "url": "url",
+    "fs": "fs",
+    "stream": "stream",
+    "mime-types": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/mime-types/index.js",
+    "asynckit": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/index.js",
+    "./populate.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/@discordjs/form-data/lib/populate.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/combined-stream/lib/combined_stream.js": {
+    "util": "util",
+    "stream": "stream",
+    "delayed-stream": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/delayed-stream/lib/delayed_stream.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/delayed-stream/lib/delayed_stream.js": {
+    "stream": "stream",
+    "util": "util"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/mime-types/index.js": {
+    "mime-db": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/mime-db/index.js",
+    "path": "path"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/mime-db/index.js": {
+    "./db.json": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/mime-db/db.json"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/index.js": {
+    "./parallel.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/parallel.js",
+    "./serial.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/serial.js",
+    "./serialOrdered.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/serialOrdered.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/parallel.js": {
+    "./lib/iterate.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/iterate.js",
+    "./lib/state.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/state.js",
+    "./lib/terminator.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/terminator.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/iterate.js": {
+    "./async.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/async.js",
+    "./abort.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/abort.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/async.js": {
+    "./defer.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/defer.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/terminator.js": {
+    "./abort.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/abort.js",
+    "./async.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/async.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/serial.js": {
+    "./serialOrdered.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/serialOrdered.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/serialOrdered.js": {
+    "./lib/iterate.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/iterate.js",
+    "./lib/state.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/state.js",
+    "./lib/terminator.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/asynckit/lib/terminator.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/abort-controller/dist/abort-controller.js": {
+    "event-target-shim": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/event-target-shim/dist/event-target-shim.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/RequestHandler.js": {
+    "./AsyncQueue": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/AsyncQueue.js",
+    "./DiscordAPIError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/DiscordAPIError.js",
+    "./HTTPError": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/rest/HTTPError.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js": {
+    "@discordjs/collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/@discordjs/collection/dist/index.js",
+    "./Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/Client.js": {
+    "./BaseClient": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/BaseClient.js",
+    "./actions/ActionsManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ActionsManager.js",
+    "./voice/ClientVoiceManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/ClientVoiceManager.js",
+    "./websocket/WebSocketManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/WebSocketManager.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../managers/ChannelManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ChannelManager.js",
+    "../managers/GuildEmojiManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiManager.js",
+    "../managers/GuildManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildManager.js",
+    "../managers/UserManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/UserManager.js",
+    "../sharding/ShardClientUtil": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/ShardClientUtil.js",
+    "../structures/ClientApplication": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientApplication.js",
+    "../structures/GuildPreview": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreview.js",
+    "../structures/GuildTemplate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildTemplate.js",
+    "../structures/Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "../structures/VoiceRegion": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceRegion.js",
+    "../structures/Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/Intents": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Intents.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Structures": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Structures.js",
+    "worker_threads": "worker_threads"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/ClientVoiceManager.js": {
+    "./VoiceBroadcast": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/VoiceBroadcast.js",
+    "./VoiceConnection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/VoiceConnection.js",
+    "../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/VoiceBroadcast.js": {
+    "events": "events",
+    "./player/BroadcastAudioPlayer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/BroadcastAudioPlayer.js",
+    "./util/PlayInterface": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/PlayInterface.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/BroadcastAudioPlayer.js": {
+    "./BasePlayer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/BasePlayer.js",
+    "../dispatcher/BroadcastDispatcher": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/dispatcher/BroadcastDispatcher.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/BasePlayer.js": {
+    "events": "events",
+    "stream": "stream",
+    "prism-media": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/index.js",
+    "../dispatcher/StreamDispatcher": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/dispatcher/StreamDispatcher.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/index.js": {
+    "./opus": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/index.js",
+    "./vorbis": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/vorbis/index.js",
+    "./core": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/index.js": {
+    "./Opus": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/Opus.js",
+    "./OggDemuxer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/OggDemuxer.js",
+    "./WebmDemuxer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/WebmDemuxer.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/Opus.js": {
+    "stream": "stream",
+    "../util/loader": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/util/loader.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/OggDemuxer.js": {
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/opus/WebmDemuxer.js": {
+    "../core/WebmBase": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/WebmBase.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/WebmBase.js": {
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/vorbis/index.js": {
+    "./WebmDemuxer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/vorbis/WebmDemuxer.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/vorbis/WebmDemuxer.js": {
+    "../core/WebmBase": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/WebmBase.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/index.js": {
+    "./FFmpeg": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/FFmpeg.js",
+    "./VolumeTransformer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/VolumeTransformer.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/FFmpeg.js": {
+    "child_process": "child_process",
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/core/VolumeTransformer.js": {
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/dispatcher/StreamDispatcher.js": {
+    "stream": "stream",
+    "../util/Secretbox": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Secretbox.js",
+    "../util/Silence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Silence.js",
+    "../util/VolumeInterface": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/VolumeInterface.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Secretbox.js": {
+    "tweetnacl": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/tweetnacl/nacl-fast.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/tweetnacl/nacl-fast.js": {
+    "crypto": "crypto"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Silence.js": {
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/VolumeInterface.js": {
+    "events": "events"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/dispatcher/BroadcastDispatcher.js": {
+    "./StreamDispatcher": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/dispatcher/StreamDispatcher.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/PlayInterface.js": {
+    "stream": "stream",
+    "prism-media": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/index.js",
+    "../../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/VoiceConnection.js": {
+    "events": "events",
+    "./networking/VoiceUDPClient": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/networking/VoiceUDPClient.js",
+    "./networking/VoiceWebSocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/networking/VoiceWebSocket.js",
+    "./player/AudioPlayer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/AudioPlayer.js",
+    "./receiver/Receiver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/receiver/Receiver.js",
+    "./util/PlayInterface": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/PlayInterface.js",
+    "./util/Silence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Silence.js",
+    "../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../../util/Speaking": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Speaking.js",
+    "../../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/networking/VoiceUDPClient.js": {
+    "dgram": "dgram",
+    "events": "events",
+    "../../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/networking/VoiceWebSocket.js": {
+    "events": "events",
+    "../../../WebSocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/WebSocket.js",
+    "../../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/WebSocket.js": {
+    "./util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "util": "util",
+    "ws": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/index.js": {
+    "./lib/websocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/websocket.js",
+    "./lib/stream": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/stream.js",
+    "./lib/websocket-server": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/websocket-server.js",
+    "./lib/receiver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/receiver.js",
+    "./lib/sender": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/sender.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/websocket.js": {
+    "events": "events",
+    "https": "https",
+    "http": "http",
+    "net": "net",
+    "tls": "tls",
+    "crypto": "crypto",
+    "url": "url",
+    "./permessage-deflate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/permessage-deflate.js",
+    "./receiver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/receiver.js",
+    "./sender": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/sender.js",
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js",
+    "./event-target": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/event-target.js",
+    "./extension": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/extension.js",
+    "./buffer-util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/buffer-util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/permessage-deflate.js": {
+    "zlib": "zlib",
+    "./buffer-util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/buffer-util.js",
+    "./limiter": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/limiter.js",
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/buffer-util.js": {
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/receiver.js": {
+    "stream": "stream",
+    "./permessage-deflate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/permessage-deflate.js",
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js",
+    "./buffer-util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/buffer-util.js",
+    "./validation": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/validation.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/validation.js": {},
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/sender.js": {
+    "crypto": "crypto",
+    "./permessage-deflate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/permessage-deflate.js",
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js",
+    "./validation": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/validation.js",
+    "./buffer-util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/buffer-util.js",
+    "net": "net",
+    "tls": "tls"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/stream.js": {
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/websocket-server.js": {
+    "events": "events",
+    "crypto": "crypto",
+    "http": "http",
+    "./permessage-deflate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/permessage-deflate.js",
+    "./websocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/websocket.js",
+    "./extension": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/extension.js",
+    "./constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/ws/lib/constants.js",
+    "https": "https",
+    "net": "net",
+    "tls": "tls"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/AudioPlayer.js": {
+    "./BasePlayer": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/player/BasePlayer.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/receiver/Receiver.js": {
+    "events": "events",
+    "prism-media": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/prism-media/src/index.js",
+    "./PacketHandler": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/receiver/PacketHandler.js",
+    "../../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/receiver/PacketHandler.js": {
+    "events": "events",
+    "../../../util/Speaking": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Speaking.js",
+    "../util/Secretbox": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Secretbox.js",
+    "../util/Silence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/voice/util/Silence.js",
+    "stream": "stream"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Speaking.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js": {
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/WebSocketManager.js": {
+    "events": "events",
+    "./WebSocketShard": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/WebSocketShard.js",
+    "./handlers": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/index.js",
+    "../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/WebSocketShard.js": {
+    "events": "events",
+    "../../WebSocket": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/WebSocket.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/index.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "./READY.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/READY.js",
+    "./RESUMED.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/RESUMED.js",
+    "./GUILD_CREATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_CREATE.js",
+    "./GUILD_DELETE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_DELETE.js",
+    "./GUILD_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_UPDATE.js",
+    "./INVITE_CREATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/INVITE_CREATE.js",
+    "./INVITE_DELETE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/INVITE_DELETE.js",
+    "./GUILD_MEMBER_ADD.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBER_ADD.js",
+    "./GUILD_MEMBER_REMOVE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBER_REMOVE.js",
+    "./GUILD_MEMBER_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBER_UPDATE.js",
+    "./GUILD_MEMBERS_CHUNK.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBERS_CHUNK.js",
+    "./GUILD_INTEGRATIONS_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_INTEGRATIONS_UPDATE.js",
+    "./GUILD_ROLE_CREATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_ROLE_CREATE.js",
+    "./GUILD_ROLE_DELETE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_ROLE_DELETE.js",
+    "./GUILD_ROLE_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_ROLE_UPDATE.js",
+    "./GUILD_BAN_ADD.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_BAN_ADD.js",
+    "./GUILD_BAN_REMOVE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_BAN_REMOVE.js",
+    "./GUILD_EMOJIS_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_EMOJIS_UPDATE.js",
+    "./CHANNEL_CREATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_CREATE.js",
+    "./CHANNEL_DELETE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_DELETE.js",
+    "./CHANNEL_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_UPDATE.js",
+    "./CHANNEL_PINS_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_PINS_UPDATE.js",
+    "./MESSAGE_CREATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js",
+    "./MESSAGE_DELETE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_DELETE.js",
+    "./MESSAGE_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_UPDATE.js",
+    "./MESSAGE_DELETE_BULK.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_DELETE_BULK.js",
+    "./MESSAGE_REACTION_ADD.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_REACTION_ADD.js",
+    "./MESSAGE_REACTION_REMOVE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_REACTION_REMOVE.js",
+    "./MESSAGE_REACTION_REMOVE_ALL.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_REACTION_REMOVE_ALL.js",
+    "./MESSAGE_REACTION_REMOVE_EMOJI.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_REACTION_REMOVE_EMOJI.js",
+    "./USER_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/USER_UPDATE.js",
+    "./PRESENCE_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/PRESENCE_UPDATE.js",
+    "./TYPING_START.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/TYPING_START.js",
+    "./VOICE_STATE_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/VOICE_STATE_UPDATE.js",
+    "./VOICE_SERVER_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/VOICE_SERVER_UPDATE.js",
+    "./WEBHOOKS_UPDATE.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/WEBHOOKS_UPDATE.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/RESUMED.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_CREATE.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBER_ADD.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_MEMBERS_CHUNK.js": {
+    "../../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/GUILD_BAN_ADD.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_UPDATE.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/CHANNEL_PINS_UPDATE.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_UPDATE.js": {
+    "../../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ChannelManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js": {
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Structures": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Structures.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js": {
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js": {
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../structures/GuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js",
+    "../structures/ReactionEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionEmoji.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js": {
+    "./BaseGuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/BaseGuildEmoji.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../managers/GuildEmojiRoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiRoleManager.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/BaseGuildEmoji.js": {
+    "./Emoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Emoji.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Emoji.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiRoleManager.js": {
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionEmoji.js": {
+    "./Emoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Emoji.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js": {
+    "fs": "fs",
+    "path": "path",
+    "stream": "stream",
+    "node-fetch": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/node-fetch/lib/index.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/Guild": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Guild.js",
+    "../structures/GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js",
+    "../structures/GuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js",
+    "../structures/GuildMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js",
+    "../structures/Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "../structures/Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Guild.js": {
+    "util": "util",
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./GuildAuditLogs": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildAuditLogs.js",
+    "./GuildPreview": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreview.js",
+    "./GuildTemplate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildTemplate.js",
+    "./Integration": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Integration.js",
+    "./Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "./VoiceRegion": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceRegion.js",
+    "./Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../managers/GuildChannelManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildChannelManager.js",
+    "../managers/GuildEmojiManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildEmojiManager.js",
+    "../managers/GuildMemberManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberManager.js",
+    "../managers/PresenceManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/PresenceManager.js",
+    "../managers/RoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/RoleManager.js",
+    "../managers/VoiceStateManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/VoiceStateManager.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../util/SystemChannelFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/SystemChannelFlags.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildAuditLogs.js": {
+    "./Integration": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Integration.js",
+    "./Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Integration.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./IntegrationApplication": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/IntegrationApplication.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/IntegrationApplication.js": {
+    "./interfaces/Application": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Application.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Application.js": {
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js": {
+    "./APIMessage": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/APIMessage.js",
+    "./Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/APIMessage.js": {
+    "./MessageAttachment": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageAttachment.js",
+    "./MessageEmbed": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageEmbed.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js",
+    "../util/MessageFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/MessageFlags.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageAttachment.js": {
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageEmbed.js": {
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/MessageFlags.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreview.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./GuildPreviewEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreviewEmoji.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildPreviewEmoji.js": {
+    "./BaseGuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/BaseGuildEmoji.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildTemplate.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceRegion.js": {
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildChannelManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js",
+    "../structures/PermissionOverwrites": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/PermissionOverwrites.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js": {
+    "./Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "./Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "./PermissionOverwrites": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/PermissionOverwrites.js",
+    "./Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/PermissionOverwrites.js": {
+    "./Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../structures/GuildMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "./interfaces/TextBasedChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../managers/GuildMemberRoleManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberRoleManager.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js": {
+    "../MessageCollector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageCollector.js",
+    "../APIMessage": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/APIMessage.js",
+    "../../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../../managers/MessageManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/MessageManager.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageCollector.js": {
+    "./interfaces/Collector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Collector.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Collector.js": {
+    "events": "events",
+    "../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/MessageManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../structures/Message": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Message.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/LimitedCollection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/LimitedCollection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Message.js": {
+    "./APIMessage": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/APIMessage.js",
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./ClientApplication": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientApplication.js",
+    "./MessageAttachment": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageAttachment.js",
+    "./MessageEmbed": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageEmbed.js",
+    "./MessageMentions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageMentions.js",
+    "./ReactionCollector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionCollector.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../managers/ReactionManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionManager.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/MessageFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/MessageFlags.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientApplication.js": {
+    "./Team": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Team.js",
+    "./interfaces/Application": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Application.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Team.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./TeamMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TeamMember.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TeamMember.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageMentions.js": {
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionCollector.js": {
+    "./interfaces/Collector": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/Collector.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/MessageReaction": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageReaction.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageReaction.js": {
+    "./GuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js",
+    "./ReactionEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ReactionEmoji.js",
+    "../managers/ReactionUserManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionUserManager.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/ReactionUserManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/LimitedCollection.js": {
+    "./Collection.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/GuildMemberRoleManager.js": {
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/PresenceManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/Presence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Presence.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Presence.js": {
+    "./Emoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Emoji.js",
+    "../util/ActivityFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/ActivityFlags.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/ActivityFlags.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/RoleManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/VoiceStateManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/SystemChannelFlags.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/UserManager.js": {
+    "./BaseManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/BaseManager.js",
+    "../structures/GuildMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js",
+    "../structures/Message": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Message.js",
+    "../structures/User": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/User.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/User.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "./interfaces/TextBasedChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Snowflake": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Snowflake.js",
+    "../util/UserFlags": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/UserFlags.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/UserFlags.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/ShardClientUtil.js": {
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Intents.js": {
+    "./BitField": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/BitField.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Structures.js": {
+    "../structures/GuildEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildEmoji.js",
+    "../structures/DMChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/DMChannel.js",
+    "../structures/TextChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TextChannel.js",
+    "../structures/VoiceChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceChannel.js",
+    "../structures/CategoryChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/CategoryChannel.js",
+    "../structures/NewsChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/NewsChannel.js",
+    "../structures/StoreChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/StoreChannel.js",
+    "../structures/GuildMember": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildMember.js",
+    "../structures/Guild": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Guild.js",
+    "../structures/Message": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Message.js",
+    "../structures/MessageReaction": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/MessageReaction.js",
+    "../structures/Presence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Presence.js",
+    "../structures/ClientPresence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientPresence.js",
+    "../structures/VoiceState": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceState.js",
+    "../structures/Role": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Role.js",
+    "../structures/User": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/User.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/DMChannel.js": {
+    "./Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "./interfaces/TextBasedChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js",
+    "../managers/MessageManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/MessageManager.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TextChannel.js": {
+    "./GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js",
+    "./Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js",
+    "./interfaces/TextBasedChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js",
+    "../managers/MessageManager": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/managers/MessageManager.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/DataResolver": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/DataResolver.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceChannel.js": {
+    "./GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../util/Permissions": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Permissions.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/CategoryChannel.js": {
+    "./GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/NewsChannel.js": {
+    "./TextChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/TextChannel.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/StoreChannel.js": {
+    "./GuildChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/GuildChannel.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/ClientPresence.js": {
+    "./Presence": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Presence.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/VoiceState.js": {
+    "./Base": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Base.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/Shard.js": {
+    "events": "events",
+    "path": "path",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/ShardingManager.js": {
+    "events": "events",
+    "fs": "fs",
+    "path": "path",
+    "./Shard": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/sharding/Shard.js",
+    "../errors": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/errors/index.js",
+    "../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../util/Util": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Util.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/WebhookClient.js": {
+    "./BaseClient": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/BaseClient.js",
+    "../structures/Webhook": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Webhook.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ActionsManager.js": {
+    "./MessageCreate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageCreate.js",
+    "./MessageDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageDelete.js",
+    "./MessageDeleteBulk": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageDeleteBulk.js",
+    "./MessageUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageUpdate.js",
+    "./MessageReactionAdd": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionAdd.js",
+    "./MessageReactionRemove": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemove.js",
+    "./MessageReactionRemoveAll": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemoveAll.js",
+    "./MessageReactionRemoveEmoji": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemoveEmoji.js",
+    "./ChannelCreate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelCreate.js",
+    "./ChannelDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelDelete.js",
+    "./ChannelUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelUpdate.js",
+    "./GuildDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildDelete.js",
+    "./GuildUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildUpdate.js",
+    "./InviteCreate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/InviteCreate.js",
+    "./InviteDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/InviteDelete.js",
+    "./GuildMemberRemove": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildMemberRemove.js",
+    "./GuildMemberUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildMemberUpdate.js",
+    "./GuildBanRemove": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildBanRemove.js",
+    "./GuildRoleCreate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleCreate.js",
+    "./GuildRoleDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleDelete.js",
+    "./GuildRoleUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleUpdate.js",
+    "./PresenceUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/PresenceUpdate.js",
+    "./UserUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/UserUpdate.js",
+    "./VoiceStateUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/VoiceStateUpdate.js",
+    "./GuildEmojiCreate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiCreate.js",
+    "./GuildEmojiDelete": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiDelete.js",
+    "./GuildEmojiUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiUpdate.js",
+    "./GuildEmojisUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojisUpdate.js",
+    "./GuildRolesPositionUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRolesPositionUpdate.js",
+    "./GuildChannelsPositionUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildChannelsPositionUpdate.js",
+    "./GuildIntegrationsUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildIntegrationsUpdate.js",
+    "./WebhooksUpdate": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/WebhooksUpdate.js",
+    "./TypingStart": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/TypingStart.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageCreate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js": {
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageDeleteBulk.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Collection": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Collection.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionAdd.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemove.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemoveAll.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/MessageReactionRemoveEmoji.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelCreate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../structures/DMChannel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/DMChannel.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/ChannelUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../structures/Channel": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Channel.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/InviteCreate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../structures/Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/InviteDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../structures/Invite": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/structures/Invite.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildMemberRemove.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildMemberUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildBanRemove.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleCreate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRoleUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/PresenceUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/UserUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/VoiceStateUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js",
+    "../../util/Structures": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Structures.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiCreate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiDelete.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojiUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildEmojisUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildRolesPositionUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildChannelsPositionUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/GuildIntegrationsUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/WebhooksUpdate.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/TypingStart.js": {
+    "./Action": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/client/actions/Action.js",
+    "../../util/Constants": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/node_modules/discord.js/src/util/Constants.js"
+  },
+  "/storage/emulated/0/Documents/StudioBots/bots/bot-template/cmds/test.js": {
+    "../lib/RandomColorEmbed/index.js": "/storage/emulated/0/Documents/StudioBots/bots/bot-template/lib/RandomColorEmbed/index.js"
+  }
+}
