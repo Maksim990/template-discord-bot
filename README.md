@@ -3,9 +3,9 @@ I know there are branches, but I'm too lazy.  If it was an npm project, I would 
 I can maintain old versions of libraries until I complete them, or I don't want to close support
 
 ## Supports versions library discord.js
-v11(no)
-v12(yes)
-v13(new)
+* v11(no)
+* v12(yes)
+* v13(new)
 
 ## Versions template bot
 * v1
