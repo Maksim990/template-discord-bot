@@ -2,15 +2,18 @@ I know there are branches, but I'm too lazy.  If it was an npm project, I would 
 
 I can maintain old versions of libraries until I complete them, or I don't want to close support
 
+I also want to make the revolt of the oldest versions of this library, so that old devices and weak PCs, as well as modern ones, can use this repository.
+
 ## Supports versions library discord.js
-* v11(no)
-* v12(yes)
-* v13(new)
+* v5(soon)
+* v6(soon)
+* v7(soon)
+* v8(soon)
+* v9(soon)
+* v10(soon)
+* v11(soon)
+* v12(soon)
+* v13(soon)
 
 ## Versions template bot
-* v1
-* v2
-* v3
-* v4
-* v5 (old)
-* v5.1 (new)
+(no data)
