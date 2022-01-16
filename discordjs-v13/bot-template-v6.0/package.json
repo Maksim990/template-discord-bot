@@ -1,0 +1,22 @@
+{
+  "name": "bot-template",
+  "version": "6.0.0",
+  "description": "discord bot, the bot-template is a discord.js v13",
+  "main": "bot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Котик#9821",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "cache-require-paths": "^0.3.0",
+    "colors": "^1.4.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.2.0",
+    "iniparser": "^1.0.5"
+  }
+}
