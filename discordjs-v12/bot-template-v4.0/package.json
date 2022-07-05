@@ -1,17 +1,15 @@
 {
   "name": "bot-template",
-  "version": "5.1.0",
-  "description": "Шаблон бота, для упращенного кодинга",
+  "version": "4.0.0",
+  "description": "",
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "bot-template"
-  ],
   "author": "maksim990",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3"
+    "discord.js": "^12.5.3",
+    "colors": "^1.4.0"
   }
 }
