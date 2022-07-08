@@ -1,0 +1,15 @@
+{
+  "name": "bot-template",
+  "version": "0.0.1",
+  "description": "Шаблон бота",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Котик#9821",
+  "license": "ISC"
+}

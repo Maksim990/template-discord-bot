@@ -1,0 +1,14 @@
+{
+  "name": "RandomColorEmbed",
+  "version": "0.0.2",
+  "description": "Нужен для рандома в ембеде бота",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "color"
+  ],
+  "author": "Котик#9822",
+  "license": "ISC"
+}
