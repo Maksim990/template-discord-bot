@@ -15,9 +15,9 @@ function running() {
                 console.log(color(`[FatalErrorNoExit]\n${err.stack}`,{r: 220, g: 0, b: 0}));
                 logsError(`[FatalErrorNoExit]\n${err.stack}`);
             });
-            process.on('unhandledRejection', (reason, e) => {
-                console.log(color(`[ErrorPromise]: ${reason}\n${e.stack}`,{r: 220, g: 0, b: 0}));
-                logsError(`[ErrorPromise]: ${reason}\n${p.stack}`);
+            process.on('unhandledRejection', err => {
+                console.log(color(`[ErrorPromise]: ${err.stack}`,{r: 220, g: 0, b: 0}));
+                logsError(`[ErrorPromise]: ${err.stack}`);
             });
         };
 
