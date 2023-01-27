@@ -1,0 +1,19 @@
+{
+    "ErrorExit": true,
+    "serverReplit": false,
+    "console": false,
+    "debugStart": false,
+    "logsError": false,
+    "logsConsole": false,
+    "welcome": true,
+    "bot": {
+        "TOKEN": "",
+        "PREFIX": "t!",
+        "ADMINS": [
+            "1",
+            "2",
+            "3"
+        ],
+        "LOG": false
+    }
+}
