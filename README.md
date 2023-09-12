@@ -1,8 +1,4 @@
 ## About the project
-This is a ready-made bot template if you urgently need to do something on your knees
-
----
-## About the project
 The project was created in order not to suffer and immediately take a ready-made, but already convenient bot template.
 ## Discord.js version branches
 * discordjs-v11 (archive)
