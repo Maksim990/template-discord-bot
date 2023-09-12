@@ -1,0 +1,20 @@
+{
+    "core": {
+        "stateShard": 0,
+        "shardLOCK": false
+    },
+    "cache": {
+        "command": {
+            "off": [],
+            "err": [],
+            "ignore": [
+                "eval"
+            ],
+            "adm": [
+                "test",
+                "stat"
+            ]
+        },
+        "maintenance": false
+    }
+}

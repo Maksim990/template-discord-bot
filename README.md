@@ -1,10 +1,14 @@
 ## About the project
+This is a ready-made bot template if you urgently need to do something on your knees
+
+---
+## About the project
 The project was created in order not to suffer and immediately take a ready-made, but already convenient bot template.
 ## Discord.js version branches
-* discordjs-v11
-* discordjs-v12
-* discordjs-v13 (current)
-* discordjs-v14 (soon)
+* discordjs-v11 (archive)
+* discordjs-v12 (archive)
+* discordjs-v13 (old)
+* discordjs-v14 (current)
 ## Up-to-date new version of the bot template
-* template version `v7.2` support discord.js-v13(`nodejs v16.9+`)
-* since template-bot `v7.2` compatibility with windows is no longer supported, in case of linux-only libraries you can still use it but without half the functionality
+* template version `v8.0` support discord.js-v13(`nodejs v16.11+`)
+* since template-bot `v8.0` compatibility with windows is no longer supported, in case of linux-only libraries you can still use it but without half the functionality

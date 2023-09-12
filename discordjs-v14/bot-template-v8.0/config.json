@@ -1,0 +1,8 @@
+{
+    "process": "bot-template-v8.0",
+    "prefix": "t!",
+    "token": "",
+    "shards": 1,
+    "ADMIN": [],
+    "MODER": []
+}
