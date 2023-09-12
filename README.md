@@ -6,5 +6,5 @@ The project was created in order not to suffer and immediately take a ready-made
 * discordjs-v13 (old)
 * discordjs-v14 (current)
 ## Up-to-date new version of the bot template
-* template version `v8.0` support discord.js-v13(`nodejs v16.11+`)
+* template version `v8.0` support discord.js-v14(`nodejs v16.11+`)
 * since template-bot `v8.0` compatibility with windows is no longer supported, in case of linux-only libraries you can still use it but without half the functionality

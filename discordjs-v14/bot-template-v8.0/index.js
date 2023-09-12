@@ -2,7 +2,6 @@ const { token, process: processN, shards } = require("./config.json");
 const { ShardingManager } = require("discord.js");
 const { log } = require("./core/lib");
 const process = require("process");
-require("./core/log-events");
 require("./core/optimize");
 const os = require("os");
 let state = true;
